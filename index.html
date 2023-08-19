@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el Número</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="px-4">        
+        <h1>Piensa en un número, y yo lo adivinaré.</h1>
+        <h2>Solo si la mayonesa es un instrumento</h2>
+    </header>
+    <section>
+        <div class="mb-3 col-md-8 col-lg-6 mx-auto text-center" id="inicio">
+            <p>Piensa en un número del 1 al 100, después de pensarlo, dale a "Comenzar juego" y yo lo adivinaré.</p>
+            <button id="startButton" class="btn btn-primary">Comenzar juego</button>
+        </div>
+        <div class="mb-3 col-md-8 col-lg-6 mx-auto d-none text-center" id="juego">
+            <p id="guessText"></p>
+            <button id="yesButton" class="btn btn-light">Sí</button>
+            <button id="moreButton" type="button" class="btn btn-danger ">Más grande</button>
+            <button id="lessButton" type="button" class="btn btn-info">Más pequeño</button>
+            <button id="restartButton" class="btn btn-warning d-none">Reiniciar juego</button> 
+
+        </div>
+    </section>
+    <section>
+        <img src="tumblr_0ed6a68d43b6bd8872a7701924d15d00_50c273bb_540.gif" class="mb-3 col-md-8 col-lg-6" alt="Patrik feliz">
+    </section>
+
+    
+       
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" defer></script>
+    <script src="index.js" defer></script>
+</body>
+</html>
